@@ -1,7 +1,8 @@
 
-# Notes
+# The FreeGenes Network
+By: Keoni Gandall, 2020-03-26
 
-Abstract:
+## Abstract
 
 DNA distribution networks are inefficient, expensive, and inclusive. This makes hinders widespread collaboration and gatekeeps the synthetic biology community. We present a new kind of distribution network that leverages marginal costs of reproduction of biological materials and wide shipping networks. Widespread distribution of static biological materials allows for distributed validation and experimentation while drastically lowering costs for new people to enter the field. 
 
@@ -21,9 +22,19 @@ The FreeGenes Network is designed to get as many Blocks into the hands of as man
 
 ## Blocks
 
-The unit of a FreeGenes Network is a block. A block is a 
+A FreeGenes Block is a physical object that is spread throughout the network. The most important thing about Blocks is that many *identical* Blocks are distributed throughout the FreeGenes Network at a time, which means those Block Groups can be independently verified as faithful. Once that group of Blocks is released into the network, it can never be released again: any reculture or recreation of material produces new Blocks, which must be verified once again.
+
+A Block must be:
+
+- Inseparable. If plates are the accepted form of Block, 1 Plate == 1 Block, and 2 Plates == 2 Blocks
+- Independent. All information necessary to learn what a Block contains must be independent of any URLs or websites which may die and that information must be physically transfered with the Block.
+- Isolated. A Block originates from one, and only one place. 
+
+These rules are to make blocks idempotent or stable from outside interference. As said above, groups of Blocks may only be released *once* into the network, and must all be *identical* to each other. Even if one plate is pinned in order to create 2 deep well plates, each of those deep well plates produce different Blocks, which must be independently verified.
 
 ## Hosts
+
+
 
 ## Distributors
 
