@@ -20,22 +20,36 @@ There are 4 important parts of the FreeGenes Network:
 
 The FreeGenes Network is designed to get as many Blocks into the hands of as many Users as possible, while ensuring that Blocks faithfully deliver their materials.
 
-## Blocks
+### Blocks
 
 A FreeGenes Block is a physical object that is spread throughout the network. The most important thing about Blocks is that many *identical* Blocks are distributed throughout the FreeGenes Network at a time, which means those Block Groups can be independently verified as faithful. Once that group of Blocks is released into the network, it can never be released again: any reculture or recreation of material produces new Blocks, which must be verified once again.
 
 A Block must be:
 
-- Inseparable. If plates are the accepted form of Block, 1 Plate == 1 Block, and 2 Plates == 2 Blocks
+- Inseparable. If plates are the accepted form of Block, 1 Plate == 1 Block, and 2 Plates == 2 Blocks.
 - Independent. All information necessary to learn what a Block contains must be independent of any URLs or websites which may die and that information must be physically transfered with the Block.
 - Isolated. A Block originates from one, and only one place. 
 
 These rules are to make blocks idempotent or stable from outside interference. As said above, groups of Blocks may only be released *once* into the network, and must all be *identical* to each other. Even if one plate is pinned in order to create 2 deep well plates, each of those deep well plates produce different Blocks, which must be independently verified.
 
-## Hosts
+### Hosts
 
+A FreeGenes Host is an organization that shares responsibility in maintaining the integrity of the network. Hosts have 2 responsibilities:
 
+- Verification of all Blocks passing through the network.
+- Initiation of voting and voting to filter Blocks before they get distributed.
 
-## Distributors
+In exchange for providing these 2 services, Hosts get a couple advantages that Distributors do not get:
+
+- Opportunity to add new Blocks to the network. Any Host adding Blocks to the network must first independently verify their group of Blocks - Hosts may not use the network for cheap verification of new constructs.
+- Ability to ask for certain number of Blocks per group of Blocks. Hosts producing new Blocks must deliver the desired number of Blocks to every other host. If that number is not delivered, Blocks risk being filtered before they are distributed.
+- Early access. When Hosts receive new Blocks, they must wait before giving Blocks to Distributors to allow for filtering.
+
+After a small amount of time,
+
+### Distributors
+
+## Incentives
+
 
 
