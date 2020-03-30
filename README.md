@@ -66,7 +66,7 @@ Relays must get Blocks from Hosts. Although Relays cannot initiate new Blocks in
 
 Some Blocks will be in higher demand than other Blocks because of the materials they contain. Hosts who want as much distribution as possible will need to mint new Blocks with popular materials to respond to demand - this requires knowledge of what the Relays are shipping.
 
-## Users
+### Users
 
 A FreeGenes User is any organization or person that gets Blocks. Users have 1 responsibility:
 
