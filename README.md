@@ -45,11 +45,20 @@ In exchange for providing these 2 services, Hosts get a couple advantages that D
 - Ability to ask for certain number of Blocks per group of Blocks. Hosts producing new Blocks must deliver the desired number of Blocks to every other host. If that number is not delivered, Blocks risk being filtered before they are distributed.
 - Early access. When Hosts receive new Blocks, they must wait before giving Blocks to Distributors to allow for filtering.
 
-After a small amount of time,
+When a Block Group is initialized on the network, it is first sent to the Hosts. After a short period of time, allowing for verification and filtering, the Blocks can be sent to Distributors from Hosts.
 
 ### Distributors
 
-## Incentives
+A FreeGenes Distributor is an organization that forwards Blocks throughout the network. Distributors have 3 responsibilities:
 
+- Safe storage of all Blocks they receive.
+- Maintenance of their Block inventory list, accessible to the public.
+- Shipment of Blocks to Users.
 
+Distributors must get Blocks from Hosts. Although Distributors cannot initiate new Blocks into the network, they can partner with Hosts to do so. 
 
+## Users
+
+A FreeGenes User is any organization or person that gets Blocks. Users have 1 responsibility:
+
+- To make the world a better place (without causing harm to others or the environment)
