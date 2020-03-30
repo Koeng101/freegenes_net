@@ -46,11 +46,11 @@ A FreeGenes Host is an organization that shares responsibility in maintaining th
 
 In exchange for providing these 2 services, Hosts get a couple advantages that Relays do not get:
 
-- Opportunity to add new Blocks to the network. Any Host adding Blocks to the network must first independently verify their group of Blocks - Hosts may not use the network for cheap verification of new constructs.
-- Ability to ask for certain number of Blocks per group of Blocks. Hosts producing new Blocks must deliver the desired number of Blocks to every other host. If that number is not delivered, Blocks risk being filtered before they are distributed.
+- Opportunity to add new Blocks to the network. Any Host adding Blocks to the network must first independently verify their Block Group - Hosts may not use the network for cheap verification of new constructs.
+- Ability to ask for certain number of Blocks per Block Group. Hosts producing new Blocks must deliver the desired number of Blocks to every other host. If that number is not delivered, Blocks risk being filtered before they are distributed.
 - Early access. When Hosts receive new Blocks, they must wait before giving Blocks to Relays to allow for filtering.
 
-When a Block Group is initialized on the network, it is first sent to the Hosts. After a short period of time, allowing for verification and filtering, the Blocks can be sent to Relays from Hosts. The exception to this rule is when a Relay is between two Hosts, in which case it must be prepared to drop the Blocks it receives. 
+When a Block Group is initialized on the network, it is first sent to the Hosts. After a short period of time, allowing for verification and filtering, the Blocks can be sent to Relays from Hosts. The exception to this rule is when a Relay is between two Hosts, in which case the Relay must be prepared to drop the Blocks it receives if the Hosts decide to filter the Block from the network.
 
 The point of distributed verification of Blocks is that it institutes a kind of objective peer-review. Raw data is required so that the peers can both review and be reviewed.
 
