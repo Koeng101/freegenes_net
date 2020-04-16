@@ -36,6 +36,12 @@ Designers of new material reach the maximium number of potential users through t
 
 The XYZ network aims to accomplish many of the practical end benefits of a peer-to-peer network, while creating an incentive structure that will allow the network to grow.  
 
+### Comparison to product manufacturing
+
+In normal distribution systems, there is a characteristic `Manufacturer -> Distributor -> User` system, with a given product having multiple manufacturers, distributors, and users. While many products are distributed like this, there is a noteable exception: Digital information. Digital information is typically shared through the internet, which is fundamentally peer-to-peer. DNA information is in a very odd place right now in transitioning from a physical product to a digital product (also known as "Networked Biology"). The steps taken during this transition period towards openness or towards corporatism will have dramatic impacts on how we share DNA 50 years from now.
+
+The XYZ network distribution methods are designed to aid in this transition while promoting openness and collaboration. 
+
 ## Moving parts
 
 There are 4 important parts of the XYZ Network:
