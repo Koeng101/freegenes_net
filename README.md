@@ -14,23 +14,23 @@ The scope of the XYZ Network is small. The goal of the XYZ Network is to impleme
 
 ### Problems with peer-to-peer
 
-In a perfect world, everyone who would need genetic material to build something wonderful and awesome would have it on hand. Practically, the next best thing is that everyone would need genetic material to build something wonderful and awesome could get it and share it. 
+In a perfect world, everyone who would need genetic material to build something wonderful and awesome would have it on hand. Practically, the next best thing is that everyone who would need genetic material to build something wonderful and awesome could get it and share it. 
 
 While the optimal network for decentralized distribution DNA materials would be a peer-to-peer network where anyone can get anything they need, this is impractical because of two reasons:
-1. Material production and verification scale extremely well
+1. Material production and verification are hard but scale extremely well
 2. Peer-to-peer requires strong inventory management at each node
 
 Networks are built from incentives for individual actors, but the incentive for a peer-to-peer network is unclear for most labs. While incurring the large costs above, they don't have much to gain (most people who would reference their material are already within their informal network). How do we reduce the costs of sharing materials so that labs are incentivized to do so?
 
 ### Incentives for peer-to-peer
 
-The XYZ network takes a slightly different approach:
+The XYZ network takes a slightly different approach, while at its core remaining a peer-to-peer decentralized network:
 1. Material production and verification are handled by a few nodes on the network for the entire network
 2. The need for inventory management is minimized as much as possible
 
 By routing traffic through a few nodes, the network takes advantage of the scalability of DNA production and verification. Those few nodes process all new DNA objects being placed into the network: For a relatively low cost, any institution would get all the newest DNA designs that the network produces. 
 
-Materials are then passed to downstream nodes, whose job is the relay the materials to more downstream nodes in a peer-to-peer fashion. However, the costs associated with material production and verification aren't a factor, and the "pre-production" of materials at upstream hosts means that minimal inventory management is necessary. For a relatively low cost, any downstream institution would get all DNA designs that the network produces for the cost of sharing through their already-established informal channels. 
+Materials are then passed to downstream nodes, whose job is the relay the materials to more downstream nodes in a peer-to-peer fashion. However, the costs associated with material production and verification aren't a factor, and the "pre-production" of materials at upstream hosts means that minimal inventory management is necessary. For a relatively low cost, any downstream institution would get all DNA designs that the network produces for the cost of sharing through their already-established channels. 
 
 Designers of new material reach the maximium number of potential users through the network who can reference that material, which is an important metric to academic institutions.
 
