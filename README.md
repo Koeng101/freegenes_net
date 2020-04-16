@@ -6,9 +6,9 @@ By: Keoni Gandall, 2020-03-26
 
 DNA distribution networks are inefficient, expensive, and inclusive. This hinders widespread collaboration and gatekeeps the bioeconomy to established players. We present a new kind of distribution network that leverages marginal costs of reproduction of biological materials and wide shipping networks. Widespread distribution of static biological materials allows for distributed verification and experimentation while drastically lowering costs for new people to enter the field. 
 
-## Overview
+## Introduction
 
-Currently, DNA material is mostly distributed through informal networks or centralized organizations. These informal networks are often highly dependent on "who you know", while the centralized organizations are slow to adapt to changes in the field and have unintentionally created inefficient material monopolies.
+Currently, DNA material is mostly distributed through informal networks or centralized organizations. These informal networks are often highly dependent on who you know, while the centralized organizations are slow to adapt to changes in the field and have unintentionally created inefficient material monopolies.
 
 The scope of the FreeGenes Network is small. The goal of the FreeGenes Network is to implement a method for widespread distribution of physical biological materials (such as plasmid DNA or strains), while remaining agnostic to form and annotation of those materials. 
 
@@ -39,7 +39,7 @@ These rules are to make Blocks idempotent or stable from outside interference. A
 
 ### Hosts
 
-A FreeGenes Host is an organization that shares responsibility in maintaining the integrity of the network. Hosts have 2 responsibilities:
+A FreeGenes Host is an organization that shares responsibility in maintaining the integrity of the network. The network does not use true peer-to-peer distribution because the incredibly scalability of production and validation of DNA material in biotech. Hosts have 2 responsibilities:
 
 - Verification of all Blocks passing through the network. Raw data from the verification must be publicly presented: pass/fail is not acceptable.
 - Initiation of voting and voting to filter Blocks before they get distributed. A Host can initiate a vote to filter a Block for any reason, though Blocks should only be filtered for lawlessness and to prevent network spam. 
