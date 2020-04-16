@@ -20,6 +20,7 @@ A peer-to-peer network would naturally be a transition of the informal networks 
 The XYZ network takes a slightly different approach:
 1. Material production and verification are handled by a few nodes on the network for the entire network
 2. The need for inventory management is minimized as much as possible
+
 By routing traffic through a few nodes, the network takes advantage of the scalability of DNA production and verification. Those few nodes process all new DNA objects being placed into the network: For a relatively low cost, any institution would get all the newest DNA designs that the network produces. Materials are then passed to downstream nodes, whose job is the relay the materials to more downstream nodes in a peer-to-peer fashion. However, the costs associated with material production and verification aren't a factor, and the "pre-production" of materials at upstream hosts means that minimal inventory management is necessary. For a relatively low cost, any downstream institution would get all DNA designs that the network produces for the cost of sharing through their already-established informal channels. Designers of new material also reach the maximium number of potential users who can reference that material, which is an important metric to academic institutions.
 
 ## Moving parts
