@@ -10,7 +10,7 @@ DNA distribution networks are inefficient, expensive, and inclusive. This hinder
 
 Currently, DNA material is mostly distributed through informal networks or centralized organizations. These informal networks are often highly dependent on who you know, while the centralized organizations are slow to adapt to changes in the field and have unintentionally created inefficient material monopolies.
 
-The scope of the XYZ Network is small. The goal of the XYZ Network is to implement a method for widespread distribution of physical biological materials (such as plasmid DNA or strains), while remaining agnostic to form and annotation of those materials. 
+The scope of the XYZ Network is small. The goal of the XYZ Network is to implement a non-centralized method for widespread distribution of physical biological materials (such as plasmid DNA or strains), while remaining agnostic to form and annotation of those materials. 
 
 ### Problems with peer-to-peer
 
