@@ -15,6 +15,7 @@ The scope of the XYZ Network is small. The goal of the XYZ Network is to impleme
 While the optimal network for distributing DNA materials would be peer-to-peer, this is impractical because of two reasons:
 1. Material production and verification scale extremely well
 2. Peer-to-peer requires strong inventory management at each node
+
 A peer-to-peer network would naturally be a transition of the informal networks that currently exist. The benefits of the network are distributed to everyone, but immediately do not make sense on a cost/benefit ratio for any given lab (since, currently, most people who would reference their material are already within their informal network). How do we incentivize individual actors to join the network?
 
 The XYZ network takes a slightly different approach:
